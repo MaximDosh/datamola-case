@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://kit.fontawesome.com/313f5b43f5.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="container">
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="#"><img class="logo" src="./src/assets/logo.svg" alt="Logo" /></a>
+          <button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <ul class="links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <aside class="hero">
+        <div class="hero-info">
+          <h1>Maxim Doschechko</h1>
+          <p>Front End Developer</p>
+          <div class="hero-btn-container">
+            <a class="btn btn-active" href="#portfolio">Portfolio</a>
+            <a class="btn" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="hero-social">
+          <ul class="social-icons">
+            <li>
+              <a href="https://github.com/MaximDosh" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/MaximDos" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/maximdosh" target="_blank">
+                <i class="fa-brands fa-square-behance"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <aside class="about" id="about">
+        <img src="./src/assets/code.jpg" class="about-img" alt="code" />
+        <div class="about-info">
+          <h2>About</h2>
+          <p>Hard skills:</p>
+          <ul>
+            <li>
+              HTML and CSS: semantic markup, flex-boxes, grid-containers, input, adaptive and
+              responsive layout, SASS and SCSS preprocessors.
+            </li>
+            <li>
+              JavaScript: DOM, BOM, AJAX, events, event listeners, understanding the Event loop
+            </li>
+            <li>
+              React: TypeScript, props, state, stateless and stateful components, component
+              lifecycle, HOC, HOOK, familiar with react-router-dom library.
+            </li>
+            <li>Redux: store, reducers, actions, selectors, sagas.</li>
+            <li>Figma: prototyping, website design, adaptive design</li>
+            <li>Adobe Photoshop: developing psd-templates websites, filling the main pages</li>
+            <li>Adobe Illustrator: creating logos</li>
+          </ul>
+          <p>Soft skills:</p>
+          <p>
+            I am diligent, communicative, humorous, able to work in a team, I can work in
+            multitasking mode. I do not stand still, constantly improving and learning new things. I
+            am interested in web development, Internet marketing, as well as psychology.
+          </p>
+        </div>
+        <div class="about-me animation">
+          <h4>My story</h4>
+          <p>A little bit of information about me. My story, what I've been up to, etc.</p>
+          <button class="btn modal-btn">- My story</button>
+        </div>
+      </aside>
+      <section class="modal-overlay">
+        <div class="modal-container">
+          <h3>My story</h3>
+          <p>Hi! My name is Maxim! I'm 23 years old.</p>
+          <p>
+            In 2019, I am graduating as a programmer. I decide to try myself in a new field and take
+            courses in SEO. After graduating in 2020, a friend suggests that I create a startup
+            related to kitchens and other furniture. For 2+ years I have been developing adaptive
+            web-pages, a catalog and an online store. I maintain the site, fill it with content. As
+            well as a marketer and make advertising campaigns. After two years of work in a
+            frequently changing environment, I wanted stability.
+          </p>
+          <p>And here I am!</p>
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+      </section>
+      <aside class="services animation" id="services">
+        <h2>Services</h2>
+        <p>Here it's my services that can I do, my skills and my experience</p>
+        <div class="slider-container">
+          <div class="slide">
+            <p>2+ years experience</p>
+            <h4>Web Development</h4>
+            <p>HTML5, CSS3, JavaScript, SASS & SCSS, React</p>
+          </div>
+          <div class="slide">
+            <p>5+ years experience</p>
+            <h4>UI/UX Design</h4>
+            <p>Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator</p>
+          </div>
+          <div class="slide">
+            <p>4+ years experience</p>
+            <h4>Digital Design</h4>
+            <p>Figma, Adobe Photoshop, Adobe Illustrator</p>
+          </div>
+          <div class="slide">
+            <div>
+              <p>2+ years experience</p>
+              <h4>Photo Editing</h4>
+              <p>Adobe Photoshop, Adobe Lightroom</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button type="button" class="prevBtn">prev</button>
+          <button type="button" class="nextBtn">next</button>
+        </div>
+      </aside>
+      <aside class="portfolio wrapper animation" id="portfolio">
+        <h2>My works</h2>
+        <p>Some of my work, see more on <a href="">Behance</a> or <a href="">GitHub</a></p>
+        <div class="works">
+          <a href="https://www.behance.net/gallery/159055901/Pay-landing-page" target="_blank"
+            ><img src="./src/assets/work1.jpg" alt="Pay, landing page"
+          /></a>
+          <a
+            href="https://www.behance.net/gallery/157791117/Cotleta-House-React-App"
+            target="_blank"
+            ><img src="./src/assets/work2.jpg" alt="Pay, landing page"
+          /></a>
+          <a href="https://www.behance.net/gallery/156905181/DOM-Mini-Projects" target="_blank"
+            ><img src="./src/assets/work3.jpg" alt="Pay, landing page"
+          /></a>
+          <a href="https://www.behance.net/gallery/87833169/Real-estate-agency" target="_blank"
+            ><img src="./src/assets/work4.jpg" alt="Pay, landing page"
+          /></a>
+        </div>
+      </aside>
+      <aside class="contact animation" id="contact">
+        <div class="contact-info">
+          <h2>Contact</h2>
+          <p>maximdosh@gmail.com</p>
+          <p>+375 (44) 759-69-75</p>
+          <p>Minsk, Belarus</p>
+        </div>
+        <div class="contact-social">
+          <ul class="social-icons contact-icons">
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fa-brands fa-square-behance"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <a href="#"><i class="fa-solid fa-arrow-up fa-xl back-to-top"></i></a>
+    </main>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
